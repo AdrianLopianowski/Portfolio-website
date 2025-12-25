@@ -1,59 +1,59 @@
-# PortfolioApp
+Portfolio website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
+## Description
 
-## Development server
+A lightweight portfolio single-page app built with Angular, TypeScript, and Tailwind CSS to showcase projects, skills, and contact details. Focused on performance, accessibility, and a responsive UI.
 
-To start a local development server, run:
+## Features
 
-```bash
+- Responsive, mobile-first layout with Tailwind CSS
+- Component-driven structure (Angular + TypeScript)
+- Project list and detail views
+- Dark/light theme toggle
+- SEO-friendly metadata and basic accessibility best practices
+
+## Tech stack
+
+- Angular
+- TypeScript
+- Tailwind CSS
+- PostCSS (used by Tailwind)
+- Optional: Angular Router, RxJS
+
+## Prerequisites
+
+- Node.js (LTS) and npm or yarn
+- (Optional) Angular CLI: npm install -g @angular/cli
+
+## Quick start
+
+1. Install dependencies:
+
+```
+npm install
+```
+
+2. Start development server:
+
+```
+npm start
+# or
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+3. Open http://localhost:4200
 
-## Code scaffolding
+## Scripts
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Start dev server: npm start / ng serve
+- Build for production: npm run build / ng build --prod
+- Lint: npm run lint
+- Tests: npm run test
 
-```bash
-ng generate component component-name
-```
+## Deployment
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Build the app and deploy the generated dist/ folder to a static host (Netlify, Vercel, GitHub Pages). Configure SPA rewrites if needed.
 
-```bash
-ng generate --help
-```
+## License
 
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Add a license (e.g., MIT) in LICENSE.md or specify your preferred license here.
