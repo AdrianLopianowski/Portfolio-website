@@ -8,23 +8,23 @@ import { Component } from "@angular/core";
     <ul class="mt-4 space-y-2">
       <li>
         <a
-          href="https://github.com/adrianlopianowski/project1"
+          href="https://github.com/adrianlopianowski/arduino"
           class="text-blue-500"
-          >Project 1</a
+          >Arduino Project</a
         >
       </li>
       <li>
         <a
-          href="https://github.com/adrianlopianowski/project2"
+          href="https://github.com/adrianlopianowski/rickAndMortyApp"
           class="text-blue-500"
-          >Project 2</a
+          >Rick and Morty App with API</a
         >
       </li>
       <li>
         <a
-          href="https://github.com/adrianlopianowski/project3"
+          href="https://github.com/AdrianLopianowski/Python-automation-scripts"
           class="text-blue-500"
-          >Project 3</a
+          >Python Automation Scripts</a
         >
       </li>
     </ul>
