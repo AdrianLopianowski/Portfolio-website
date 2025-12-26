@@ -3,31 +3,63 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-projects",
   template: `
-    <h2 class="text-3xl font-bold">My Projects</h2>
-    <p class="mt-2">Here are some of the projects I've worked on:</p>
-    <ul class="mt-4 space-y-2">
-      <li>
+    <div class="space-y-4">
+      <h2 class="text-3xl font-bold text-white pl-2">My Projects</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <a
           href="https://github.com/adrianlopianowski/arduino"
-          class="text-blue-500"
-          >Arduino Project</a
+          target="_blank"
+          class="group block bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:bg-zinc-800 hover:border-green-500/50 transition-all duration-300"
         >
-      </li>
-      <li>
+          <div class="text-green-500 mb-2 text-sm font-mono">
+            C++ / Hardware
+          </div>
+          <h3
+            class="text-xl font-bold text-white mb-2 group-hover:text-green-400"
+          >
+            Arduino Project
+          </h3>
+          <p class="text-sm text-zinc-500">
+            Low-level programming and hardware interaction.
+          </p>
+        </a>
+
         <a
           href="https://github.com/adrianlopianowski/rickAndMortyApp"
-          class="text-blue-500"
-          >Rick and Morty App with API</a
+          target="_blank"
+          class="group block bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:bg-zinc-800 hover:border-green-500/50 transition-all duration-300"
         >
-      </li>
-      <li>
+          <div class="text-green-500 mb-2 text-sm font-mono">
+            Angular / API / TypeScript
+          </div>
+          <h3
+            class="text-xl font-bold text-white mb-2 group-hover:text-green-400"
+          >
+            Rick & Morty App
+          </h3>
+          <p class="text-sm text-zinc-500">
+            SPA application consuming REST API with pagination.
+          </p>
+        </a>
+
         <a
           href="https://github.com/AdrianLopianowski/Python-automation-scripts"
-          class="text-blue-500"
-          >Python Automation Scripts</a
+          target="_blank"
+          class="group block bg-zinc-900 border border-zinc-800 rounded-xl p-6 hover:bg-zinc-800 hover:border-green-500/50 transition-all duration-300"
         >
-      </li>
-    </ul>
+          <div class="text-green-500 mb-2 text-sm font-mono">Python</div>
+          <h3
+            class="text-xl font-bold text-white mb-2 group-hover:text-green-400"
+          >
+            Automation Scripts
+          </h3>
+          <p class="text-sm text-zinc-500">
+            Scripts to automate boring daily tasks.
+          </p>
+        </a>
+      </div>
+    </div>
   `,
 })
 export class ProjectsComponent {}
