@@ -3,19 +3,17 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-university",
   template: `
-    <div
-      class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 hover:border-zinc-700 transition-colors"
-    >
-      <h2
-        class="text-xl font-bold text-white mb-3 flex items-center justify-between"
-      >
-        University
+    <div class="h-full flex flex-col justify-center">
+      <div class="flex items-baseline gap-4 mb-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-white">University</h2>
         <span
-          class="text-xs text-green-500 border border-green-500/30 px-2 py-1 rounded bg-green-500/10"
-          >2023 - Present</span
+          class="text-green-500 font-mono text-sm border-l border-green-500 pl-4"
         >
-      </h2>
-      <p class="text-zinc-400">
+          2023 - Present
+        </span>
+      </div>
+
+      <p class="text-zinc-400 text-xl md:text-2xl">
         Studied Computer Science at <br />
         <span class="text-white font-medium">Kazimierz Wielki University</span>
         in Bydgoszcz.

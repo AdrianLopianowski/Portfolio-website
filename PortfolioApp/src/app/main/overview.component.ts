@@ -3,31 +3,38 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-overview",
   template: `
-    <div
-      class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 h-full flex flex-col justify-center"
-    >
-      <h1 class="text-xl font-bold text-white mb-2">Tech Overview</h1>
-      <p class="text-zinc-400 text-sm mb-4">
+    <div class="h-full flex flex-col justify-center">
+      <h1 class="text-3xl md:text-4xl font-bold text-white mb-6">
+        Tech Overview
+      </h1>
+      <p class="text-zinc-500 text-lg mb-8">
         Main stack used in recent projects.
       </p>
 
-      <div class="flex gap-2 flex-wrap">
+      <div class="flex flex-wrap gap-4">
         <span
-          class="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-full text-xs font-mono border border-zinc-700"
-          >Angular</span
+          class="text-2xl md:text-3xl font-bold text-zinc-300 hover:text-green-400 transition-colors cursor-default"
         >
+          Angular
+        </span>
+        <span class="text-2xl md:text-3xl font-bold text-zinc-700">/</span>
         <span
-          class="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-full text-xs font-mono border border-zinc-700"
-          >TypeScript</span
+          class="text-2xl md:text-3xl font-bold text-zinc-300 hover:text-green-400 transition-colors cursor-default"
         >
+          TypeScript
+        </span>
+        <span class="text-2xl md:text-3xl font-bold text-zinc-700">/</span>
         <span
-          class="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-full text-xs font-mono border border-zinc-700"
-          >Tailwind</span
+          class="text-2xl md:text-3xl font-bold text-zinc-300 hover:text-green-400 transition-colors cursor-default"
         >
+          Tailwind
+        </span>
+        <span class="text-2xl md:text-3xl font-bold text-zinc-700">/</span>
         <span
-          class="px-3 py-1 bg-zinc-800 text-zinc-300 rounded-full text-xs font-mono border border-zinc-700"
-          >Node.js</span
+          class="text-2xl md:text-3xl font-bold text-zinc-300 hover:text-green-400 transition-colors cursor-default"
         >
+          Node.js
+        </span>
       </div>
     </div>
   `,

@@ -22,30 +22,54 @@ import { OverviewComponent } from "./main/overview.component";
     OverviewComponent,
   ],
   template: `
+    <app-header></app-header>
     <main
-      class="bg-black min-h-screen pt-24 pb-10 px-4 md:px-8 font-sans text-zinc-300 selection:bg-green-500 selection:text-black"
+      class="bg-black h-screen overflow-y-scroll snap-y snap-mandatory font-sans text-zinc-300 selection:bg-green-500 selection:text-black"
     >
-      <div class="max-w-6xl mx-auto space-y-6">
-        <section id="home">
+      <div class="max-w-4xl mx-auto px-4 md:px-8">
+        <section
+          id="home"
+          class="min-h-screen flex flex-col justify-center snap-start"
+        >
           <app-intro></app-intro>
         </section>
 
-        <section id="about" class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <app-about-me class="h-full"></app-about-me>
-
-          <div class="flex flex-col gap-6">
-            <app-university></app-university>
-            <app-overview></app-overview>
-          </div>
+        <section
+          id="about"
+          class="min-h-screen flex flex-col justify-center snap-start"
+        >
+          <app-about-me class="w-full"></app-about-me>
         </section>
 
-        <section id="projects">
+        <section
+          id="university"
+          class="min-h-screen flex flex-col justify-center snap-start"
+        >
+          <app-university class="w-full"></app-university>
+        </section>
+
+        <section
+          id="tech"
+          class="min-h-screen flex flex-col justify-center snap-start"
+        >
+          <app-overview class="w-full"></app-overview>
+        </section>
+
+        <section
+          id="projects"
+          class="min-h-screen flex flex-col justify-center snap-start"
+        >
           <app-projects></app-projects>
         </section>
 
-        <section id="contact">
+        <section
+          id="contact"
+          class="min-h-screen flex flex-col justify-center snap-start"
+        >
           <app-contact-me-pls></app-contact-me-pls>
         </section>
+
+        <div class="h-10"></div>
       </div>
     </main>
     <router-outlet />

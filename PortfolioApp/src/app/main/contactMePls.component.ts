@@ -3,36 +3,35 @@ import { Component } from "@angular/core";
 @Component({
   selector: "app-contact-me-pls",
   template: `
-    <div
-      class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 md:p-12 text-center"
-    >
-      <h2 class="text-3xl font-bold text-white mb-4">Let's work together</h2>
-      <p class="text-zinc-400 mb-8 max-w-xl mx-auto">
+    <div class="text-left w-full">
+      <h2 class="text-4xl md:text-6xl font-bold text-white mb-6">
+        Let's work <br />
+        <span class="text-zinc-600">together.</span>
+      </h2>
+      <p class="text-zinc-400 text-xl mb-10 max-w-xl">
         Feel free to reach out to me via email or connect on social media.
       </p>
 
-      <div class="flex flex-col md:flex-row justify-center items-center gap-4">
+      <div class="flex flex-col sm:flex-row gap-6">
         <a
           href="mailto:adrianlopianowski@gmail.com"
-          class="px-6 py-3 bg-green-600 text-black font-bold rounded-lg hover:bg-green-500 transition-colors w-full md:w-auto"
+          class="text-xl text-white font-bold border-b-2 border-green-500 hover:bg-green-500/10 pb-1 transition-all w-max"
         >
-          Email Me
+          → adrianlopianowski&#64;gmail.com
         </a>
+      </div>
 
-        <div class="flex gap-4">
-          <a
-            href="https://www.linkedin.com/in/lopianowski/"
-            class="px-6 py-3 border border-zinc-700 text-white rounded-lg hover:bg-zinc-800 hover:border-green-500 transition-colors"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/adrianlopianowski"
-            class="px-6 py-3 border border-zinc-700 text-white rounded-lg hover:bg-zinc-800 hover:border-green-500 transition-colors"
-          >
-            GitHub
-          </a>
-        </div>
+      <div class="flex gap-6 mt-8">
+        <a
+          href="https://www.linkedin.com/in/lopianowski/"
+          class="text-zinc-500 hover:text-white transition-colors"
+          >LinkedIn</a
+        >
+        <a
+          href="https://github.com/adrianlopianowski"
+          class="text-zinc-500 hover:text-white transition-colors"
+          >GitHub</a
+        >
       </div>
     </div>
   `,
