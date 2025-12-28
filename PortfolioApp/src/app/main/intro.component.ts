@@ -42,7 +42,7 @@ import { CommonModule, NgFor, NgClass } from "@angular/common";
             <img
               [src]="img"
               alt="Project Image"
-              class="absolute inset-0 w-full h-full object-cover rounded-xl border-4 border-zinc-800 shadow-2xl transition-all duration-700 ease-in-out"
+              class="absolute inset-0 w-full h-full object-cover rounded-xl border-4 border-b-12 border-t-12 border-zinc-800 shadow-2xl transition-all duration-700 ease-in-out"
               [ngClass]="getImageClass(i)"
             />
           </ng-container>
