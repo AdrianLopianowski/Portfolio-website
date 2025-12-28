@@ -4,7 +4,6 @@ import { RouterOutlet } from "@angular/router";
 import { HeaderComponent } from "./main/header.component";
 import { IntroComponent } from "./main/intro.component";
 import { ContactMePlsComponent } from "./main/contactMePls.component";
-import { AboutMeComponent } from "./main/aboutMe.component";
 import { UniversityComponent } from "./main/university.component";
 import { ProjectsComponent } from "./main/projects.component";
 import { OverviewComponent } from "./main/overview.component";
@@ -16,7 +15,6 @@ import { OverviewComponent } from "./main/overview.component";
     HeaderComponent,
     IntroComponent,
     ContactMePlsComponent,
-    AboutMeComponent,
     UniversityComponent,
     ProjectsComponent,
     OverviewComponent,
@@ -32,13 +30,6 @@ import { OverviewComponent } from "./main/overview.component";
           class="min-h-screen flex flex-col justify-center snap-start"
         >
           <app-intro></app-intro>
-        </section>
-
-        <section
-          id="about"
-          class="min-h-screen flex flex-col justify-center snap-start"
-        >
-          <app-about-me class="w-full"></app-about-me>
         </section>
 
         <section

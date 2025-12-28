@@ -21,12 +21,6 @@ import { Component } from "@angular/core";
           <li
             class="hover:text-green-500 text-zinc-400 transition-colors cursor-pointer"
           >
-            <a (click)="scrollToSection('about')">About</a>
-          </li>
-
-          <li
-            class="hover:text-green-500 text-zinc-400 transition-colors cursor-pointer"
-          >
             <a (click)="scrollToSection('university')">Education</a>
           </li>
 
