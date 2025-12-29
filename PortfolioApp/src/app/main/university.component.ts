@@ -31,7 +31,7 @@ import { FadeInDirective } from "./fade-in.directive";
       <div class="flex-1 flex flex-col justify-center">
         <div class="flex items-baseline gap-4 mb-4">
           <h2 class="text-3xl md:text-4xl font-bold text-white">
-            ZSOiT Miastko
+            Technical High School
           </h2>
           <span
             class="text-green-500 font-mono text-sm border-l border-green-500 pl-4"
@@ -41,7 +41,7 @@ import { FadeInDirective } from "./fade-in.directive";
         </div>
 
         <p class="text-zinc-400 text-xl md:text-2xl">
-          Studied Computer Science at <br />
+          IT Technician Profile at <br />
           <span class="text-white font-medium">ZSOiT Miastko</span>
         </p>
       </div>
